@@ -1,3 +1,7 @@
+Little distributed systems simulation, I'm working on.
+Full hand-written codebase, AIを一つも使わずに.
+MIT License.
+
                          ┌─────────────┐
                          │    Client   │
                          │     Code    │
@@ -12,7 +16,7 @@
                   ┌─────────────┼──────────────┐
                   │             │              │
                   ▼             ▼              ▼
-             Postgres         Redis          MinIO
+             Postgres         Redis         Storage
                                 │              │
                                 │              │
                                 ▼              ▼
@@ -25,7 +29,7 @@
                 │               │               │
                 └───────────────┼───────────────┘
                                 ▼
-                              MinIO
+                             Storage
                                 │
                                 ▼
                         ┌───────────────┐
